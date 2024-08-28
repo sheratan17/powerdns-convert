@@ -2,7 +2,7 @@
 
 Berikut adalah script bash untuk parsing named.conv dan zone file (domain.db) lalu di tambahkan ke PowerDNS MySQL
 
-1. Bersihkan named.conf dari segala command dan domain PTR
+1. Bersihkan named.conf dari segala komentar dan domain PTR
 2. Jalankan extract.sh
 - input_file bisa disesuaikan dengan lokasi named.conf
 - output_file bisa disesuaikan dengan lokasi dimana file hasil extract
